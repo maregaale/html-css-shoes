@@ -77,9 +77,15 @@ nav li a {
   transform: translate(-50%, -50%);
 }
 
+/* dimensione immagini */
+.container>img {
+  height: 60vh;
+}
+/* /dimensione immagini */
+
 .container h2 {
   text-align: center;
-  font-size: 55px;
+  font-size: 45px;
   color: yellow;
   text-transform: uppercase;
   font-family: 'Fraunces', serif;
