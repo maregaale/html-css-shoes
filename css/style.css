@@ -13,6 +13,7 @@ header {
   z-index: 100;
   width:100%;
   background-color: red;
+  position: absolute;
 }
 /* /intestazione */
 
@@ -86,6 +87,10 @@ nav li a {
 }
 /* /contenitore foto e titolo */
 
-
+/* titolo verde */
+#section-3 .green-title {
+  color: green;
+}
+/* /titolo verde */
 
 /* /corpo del progetto */
