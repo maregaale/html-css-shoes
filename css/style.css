@@ -8,11 +8,18 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* intestazione */
+header {
+  position: fixed;
+  z-index: 100;
+  width:100%;
+}
+/* /intestazione */
+
 /* menu di navigazione */
-nav {
+.main-nav {
   text-align: right;
   vertical-align: middle;
-  background-color: green;
 }
 
 li {
@@ -25,7 +32,7 @@ li {
 /* /menu di navigazione */
 
 /* ancore */
-a {
+nav li a {
   display: inline-block;
   width: 40px;
   height: 40px;
@@ -39,3 +46,24 @@ a {
   background-color: white;
 }
 /* /ancore */
+
+/* corpo del progetto */
+.section {
+  height: 100vh;
+  position: relative;
+}
+
+/* colore delle sezioni */
+#section-1 {
+  background-color: red;
+}
+/* /colore delle sezioni */
+
+
+/* foto delle sezioni */
+.section img {
+  width: 50%;
+}
+/* /foto delle sezioni */
+
+/* /corpo del progetto */
