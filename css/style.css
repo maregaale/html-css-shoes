@@ -59,11 +59,23 @@ nav li a {
 }
 /* /colore delle sezioni */
 
-
-/* foto delle sezioni */
-.section img {
-  width: 50%;
+/* contenitore foto e titolo */
+.section .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-/* /foto delle sezioni */
+
+.container h2 {
+  text-align: center;
+  font-size: 55px;
+  color: yellow;
+  text-transform: uppercase;
+  font-family: 'Fraunces', serif;
+  letter-spacing: 4px;
+}
+/* /contenitore foto e titolo */
+
 
 /* /corpo del progetto */
